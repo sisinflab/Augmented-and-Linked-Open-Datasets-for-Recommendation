@@ -1,17 +1,14 @@
 # Augmented and Linked Open Datasets for Recommendation
 
 This is the official repository of the paper *Augmented and Linked Open Datasets for Recommendation*.
-
-Resources are available at https://tny.sh/sisinflab-alod . 
-
-
-## Overview
-
-Out datasets augment [MovieLens 25M](https://grouplens.org/datasets/movielens/25m/) and [LibraryThing](https://cseweb.ucsd.edu/~jmcauley/datasets.html#social_data) with structured knowldge, metadata and reviews.
+This work covers the enrichment of two widely used recommendation datasets from the movie and book domain, [MovieLens 25M](https://grouplens.org/datasets/movielens/25m/) and [LibraryThing](https://cseweb.ucsd.edu/~jmcauley/datasets.html#social_data) respectively. In their actual public release, these datasets still lack of comprehensive and extensive efforts of side information integration, despite the imaginable disruptive benefit it would provide.
 
 <p align="center">
 <img src="images/resources.jpg" alt="drawing" width="500" />
 </p>
+
+Resources are available at https://tny.sh/sisinflab-alod . 
+
 
 
 ## Resources
