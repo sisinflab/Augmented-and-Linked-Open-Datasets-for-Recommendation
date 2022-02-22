@@ -80,6 +80,8 @@ The table below shows the statistics of the collected resource categorized by da
 
 ### Resources Description
 
+Here we provide a description of the contents of our collection.
+
 <p align="center">
 <img src="images/description_files.png" alt="drawing" width="700" />
 </p>
