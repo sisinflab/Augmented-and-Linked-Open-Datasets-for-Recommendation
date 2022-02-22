@@ -24,7 +24,7 @@ As for metadata:
 - titles, authors, genres, tags, and reviews from the [LibraryThing](https://www.librarything.com/) website for books
 
 As for knowledge graphs:
-- linking to URI resource on [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page), [DBpedia](https://www.dbpedia.org/) and [Freebase](https://developers.google.com/freebase) KGs for both movies and books
+- links from Item IDs to URI resources on [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page), [DBpedia](https://www.dbpedia.org/) and [Freebase](https://developers.google.com/freebase) KGs for both movies and books
 - RDF-triples from the Wikidata and DBpedia KGs for both movies and books 
 
 The files are subdivided into tar.gz archives as follows:
