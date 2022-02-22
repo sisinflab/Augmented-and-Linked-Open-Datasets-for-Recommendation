@@ -97,5 +97,11 @@ This work is developed by
 This work is under [APACHE2 License](./LICENSE).
 
 ## Acknowledgements
-Our datasets are constructed on the basis of 
+Our datasets are constructed thanks to 
 - MovieLens dataset (https://grouplens.org/)
+- LibraryThing dataset(https://cseweb.ucsd.edu/~jmcauley/datasets.html#social_data)
+- The Internet Movie Database (https://www.imdb.com/)
+- LibraryThing website (https://www.librarything.com/)
+- Wikidata (https://www.wikidata.org/wiki/Wikidata:Main_Page)
+- DBpedia (https://www.dbpedia.org/)
+- Freebase (https://developers.google.com/freebase)
