@@ -81,7 +81,7 @@ The table below shows the statistics of the collected resource categorized by da
 ### Resources Description
 
 <p align="center">
-<img src="images/description_files.png" alt="drawing" width="500" />
+<img src="images/description_files.png" alt="drawing" width="700" />
 </p>
 
 
