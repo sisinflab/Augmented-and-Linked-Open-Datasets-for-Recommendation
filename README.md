@@ -75,7 +75,7 @@ The files are split into tar.gz archives as follows:
 The table below shows the statistics of the collected resource categorized by dataset and data source.
 
 <p align="center">
-<img src="images/stats.jpg" alt="drawing" width="500" />
+<img src="images/stats.png" alt="drawing" width="500" />
 </p>
 
 
