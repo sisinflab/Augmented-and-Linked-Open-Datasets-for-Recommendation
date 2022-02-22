@@ -103,7 +103,7 @@ This work is developed by
 <b id="f1"><sup>*</sup></b> Corresponding authors
 
 ## License
-This work is under [APACHE2 License](./LICENSE).
+This work is released under [APACHE2 License](./LICENSE).
 
 ## Acknowledgements
 Our datasets are constructed thanks to 
