@@ -12,8 +12,17 @@ Resources are available at https://tny.sh/sisinflab-alod .
 
 
 ## Resources
+Our resources collect metadata, reviews, and the associated knowledge graphs (KGs) for each dataset. 
 
-The file are subdivided into tar.gz archives as follows:
+As for metadata:
+- actors, directors, genres, keywords, and reviews from the [Internet Movie Database](https://www.imdb.com/) for movies
+- titles, authors, genres, tags, and reviews from the [LibraryThing](https://www.librarything.com/) website for books
+
+As for knowledge graphs:
+- linking to URI resource on [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page), [DBpedia](https://www.dbpedia.org/) and [Freebase](https://developers.google.com/freebase) KGs for both movies and books
+- RDF-triples from the Wikidata and DBpedia KGs for both movies and books 
+
+The files are subdivided into tar.gz archives as follows:
   ```shell
   MovieLens 25M
   ├── ml25m_linking.tar.gz
