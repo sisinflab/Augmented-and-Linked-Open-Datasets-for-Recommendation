@@ -27,7 +27,7 @@ As for knowledge graphs:
 - links from Item IDs to URI resources on [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page), [DBpedia](https://www.dbpedia.org/) and [Freebase](https://developers.google.com/freebase) KGs for both movies and books
 - RDF-triples from the Wikidata and DBpedia KGs for both movies and books 
 
-The files are subdivided into tar.gz archives as follows:
+The files are split into tar.gz archives as follows:
   ```shell
   MovieLens 25M
   ├── ml25m_linking.tar.gz
@@ -68,7 +68,7 @@ The files are subdivided into tar.gz archives as follows:
 
 ### Resources Statistics
 
-The table below shows the statistics of the collected resource categorized by related datasets and data sources.
+The table below shows the statistics of the collected resource categorized by dataset and data source.
 
 <p align="center">
 <img src="images/stats.jpg" alt="drawing" width="500" />
