@@ -10,7 +10,7 @@ Resources are available at https://tny.sh/sisinflab-alod .
 Out datasets augment [MovieLens 25M](https://grouplens.org/datasets/movielens/25m/) and [LibraryThing](https://cseweb.ucsd.edu/~jmcauley/datasets.html#social_data) with structured knowldge, metadata and reviews.
 
 <p align="center">
-<img src="images/resources.jpg" alt="drawing" width="350" />
+<img src="images/resources.jpg" alt="drawing" width="500" />
 </p>
 
 
