@@ -13,7 +13,7 @@ Additionally, we publish a mapping for each item in the two datasets with the co
 Inspired by the advances in knowledge graph, Graph Convolutional Networks, Link Prediction, and Recommender Systems research, these augmented datasets aim to meet their cutting-edge research needs. Moreover, these datasets pave the way to further research to investigate different recommendation modalities simultaneously.
 
 <p align="center">
-<img src="images/resources.jpg" alt="drawing" width="500" />
+<img src="images/resources.png" alt="drawing" width="500" />
 </p>
 
 Resources are available at https://tny.sh/sisinflab-alod . 
