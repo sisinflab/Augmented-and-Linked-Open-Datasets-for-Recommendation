@@ -78,6 +78,13 @@ The table below shows the statistics of the collected resource categorized by da
 <img src="images/stats.png" alt="drawing" width="500" />
 </p>
 
+### Resources Description
+
+<p align="center">
+<img src="images/description_files.png" alt="drawing" width="500" />
+</p>
+
+
 
 ## Contributing
 We welcome any contibution that could improve our datasets. Please, contact us by email.
