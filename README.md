@@ -1,3 +1,3 @@
 # Augmented and Linked Open Datasets for Recommendation
 
-Warning: upload in progress...
+Data is being uploaded at https://tny.sh/sisinflab-alod . 
