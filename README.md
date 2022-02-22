@@ -16,7 +16,7 @@ Inspired by the advances in knowledge graph, Graph Convolutional Networks, Link 
 <img src="images/resources.png" alt="drawing" width="500" />
 </p>
 
-Resources are available at https://tny.sh/sisinflab-alod . 
+Resources are available [here](https://tny.sh/sisinflab-alod) . 
 
 
 
