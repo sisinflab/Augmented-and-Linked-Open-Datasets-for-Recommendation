@@ -1,8 +1,9 @@
 # Augmented and Linked Open Datasets for Recommendation
 
-Data is being uploaded at https://tny.sh/sisinflab-alod . 
-
 This is the official repository of the paper *Augmented and Linked Open Datasets for Recommendation*.
+
+Resources are available at https://tny.sh/sisinflab-alod . 
+
 
 ## Overview
 
@@ -14,11 +15,6 @@ Out datasets augment [MovieLens 25M](https://grouplens.org/datasets/movielens/25
 
 
 ## Resources
-
-<p align="center">
-<img src="images/files.jpg" alt="drawing" width="500" />
-</p>
-
 
 The file are subdivided into tar.gz archives as follows:
   ```shell
@@ -63,8 +59,6 @@ The file are subdivided into tar.gz archives as follows:
 
 The table below shows the statistics of the collected resource categorized by related datasets and data sources.
 
+<p align="center">
 <img src="images/stats.jpg" alt="drawing" width="500" />
-
-## How can I download the data?
-
-The data are available [here](https://tny.sh/sisinflab-alod).
+</p>
