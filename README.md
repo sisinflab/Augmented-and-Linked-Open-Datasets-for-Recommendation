@@ -77,3 +77,25 @@ The table below shows the statistics of the collected resource categorized by da
 <p align="center">
 <img src="images/stats.jpg" alt="drawing" width="500" />
 </p>
+
+
+## Contributing
+We welcome any contibution that could improve our datasets. Please, contact us by email.
+
+## The Team
+This work is developed by
+* Vito Walter Anelli (vitowalter.anelli@poliba.it)
+* Antonio Ferrara (antonio.ferrara@poliba.it)
+* Tommaso Di Noia (tommaso.dinoia@poliba.it)
+* Alberto Carlo Maria Mancino<sup id="a1">[*](#f1)</sup> (alberto.mancino@poliba.it)
+* Vincenzo Paparella<sup id="a1">[*](#f1)</sup> (vincenzo.paparella@poliba.it)
+* Claudio Pomo (claudio.pomo@poliba.it)
+
+<b id="f1"><sup>*</sup></b> Corresponding authors
+
+## License
+This work is under [APACHE2 License](./LICENSE).
+
+## Acknowledgements
+Our datasets are constructed on the basis of 
+- MovieLens dataset (https://grouplens.org/)
