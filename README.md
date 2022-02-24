@@ -17,7 +17,7 @@ Inspired by the advances in knowledge graph, Graph Convolutional Networks, Link 
 </p>
 
 ## Download the Datasets
-Resources are available [here](https://tny.sh/sisinflab-alod) . 
+All the resources are available [here](https://tny.sh/sisinflab-alod) . 
 
 
 ## Resources
