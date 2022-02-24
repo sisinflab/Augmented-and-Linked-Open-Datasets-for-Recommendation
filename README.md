@@ -19,6 +19,7 @@ Inspired by the advances in knowledge graph, Graph Convolutional Networks, Link 
 ## Download the Datasets
 All the resources are available [here](https://tny.sh/sisinflab-alod) . 
 
+Please note that the resources cannot be hosted on GitHub due to [GitHub size limits](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github).
 
 ## Resources
 Our resources collect metadata, reviews, and the associated knowledge graphs (KGs) for each dataset. 
