@@ -1,6 +1,6 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/sisinflab/elliot) ![GitHub](https://img.shields.io/github/license/sisinflab/Augmented-and-Linked-Open-Datasets-for-Recommendation.svg)
 
-[Main page](https://sisinflab.github.io/Augmented-and-Linked-Open-Datasets-for-Recommendation/)
+[Main page](https://sisinflab.github.io/Augmented-and-Linked-Open-Datasets-for-Recommendation/) - [GitHub Repository](https://github.com/sisinflab/Augmented-and-Linked-Open-Datasets-for-Recommendation/)
 
 # Augmented and Linked Open Datasets for Recommendation
 
