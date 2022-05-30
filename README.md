@@ -42,15 +42,7 @@ The files are split into tar.gz archives as follows:
   │   └── ml25m_wikidata_2hop.tsv
   │   └── ml25m_dbpedia_1hop.tsv
   │   └── ml25m_dbpedia_2hop.tsv
-  ├── ml25m_metadata.tar.gz
-  │   └── ml25m_metadata.tsv
-  │   └── ml25m_map_generes.tsv
-  ├── ml25m_people.tar.gz
-  │   └── ml25m_people.csv
-  │   └── ml25m_map_directors.tsv
-  │   └── ml25m_map_actors.tsv
-  ├── ml25m_reviews.tar.gz
-  │   └── ml25m_reviews.tsv
+
 
   LibraryThing
   ├── lt_linking.tar.gz
@@ -62,12 +54,7 @@ The files are split into tar.gz archives as follows:
   │   └── lt_wikidata_2hop.tsv
   │   └── lt_dbpedia_1hop.tsv
   │   └── lt_dbpedia_2hop.tsv
-  ├── lt_metadata.tar.gz
-  │   └── lt_metadata.tsv
-  │   └── lt_map_generes.tsv
-  │   └── lt_map_authors.tsv
-  ├── lt_reviews.tar.gz
-  │   └── lt_reviews.tsv
+
 
   ```
 
