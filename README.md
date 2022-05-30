@@ -21,13 +21,7 @@ All the resources are available [here](https://tny.sh/sisinflab-alod) .
 Please note that the resources cannot be hosted on GitHub due to [GitHub size limits](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github).
 
 ## Resources
-Our resources collect metadata, reviews, and the associated knowledge graphs (KGs) for each dataset. 
-
-As for metadata:
-- actors, directors, genres, keywords, and reviews from the [Internet Movie Database](https://www.imdb.com/) for movies
-- titles, authors, genres, tags, and reviews from the [LibraryThing](https://www.librarything.com/) website for books
-
-As for knowledge graphs:
+Our resources collect:
 - links from Item IDs to URI resources on [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page), [DBpedia](https://www.dbpedia.org/) and [Freebase](https://developers.google.com/freebase) KGs for both movies and books
 - RDF-triples from the Wikidata and DBpedia KGs for both movies and books 
 
@@ -56,6 +50,17 @@ The files are split into tar.gz archives as follows:
 
 
   ```
+| File Name | Descriptions |
+|-----------|--------------|
+| ml25m_linking.tsv | This file contains the link of items in MovieLens 25M dataset to Wikidata, DBpedia, and FreeBase Knowledge Graphs. This is a tab separated file containing the following self-explained fields: `movie_id \| wikidata_uri \| dbpedia_uri \| freebase_uri \|`  <br>The user IDs are the ones used in the `user_bundle.csv` and `user_item.csv` data sets. The item IDs are the ones used in the `user_item.csv`, `session_item.csv` and `item_categories.csv` data sets.|
+| user_item.csv | This file contains the interaction of user and item.<br> This is a tab separated list: `user ID \| item ID \| timestamp \|`  |
+| session_item.csv | This file contains the affiliation of session and its items. Each session has at least 2 items.<br> This is a tab separated list: `session ID \| item ID \|` <br>The session IDs are the ones used in the `session_bundle.csv` and `user_session.csv` data sets.  |
+| user_session.csv| This file contains the interaction of user and session.<br> This is a tab separated list: `user ID \| session ID \| timestamp \|`  |
+| session_bundle.csv| This file contains the affiliation of session and detected bundles. Each session has at least 1 bundle.<br> This is a tab separated list: `session ID \| bundle ID \|` <br>The bundle IDs are the ones used in the `bundle_item.csv` ,`user_bundle.csv` and `bundle_intent.csv` data sets. |
+| bundle_intent.csv | This file contains bundle and its annotated intent.<br> This is a tab separated list: `bundle ID \| intent \|`  |
+| bundle_item.csv | This file contains the affiliation of bundle and its items. Each bundle has at least 2 items.<br> This is a tab separated list: `bundle ID \| item ID \|` |
+| user_bundle.csv | This file contains the interaction of user and bundle.<br> This is a tab separated list: `user ID \| bundle ID \| timestamp \|`  |
+| item_categories.csv| This file contains item and its categories.<br> This is a tab separated list: `item ID \| categories \|` <br> The format of data in `categories` column is a list of string. |
 
 ### Resources Statistics
 
