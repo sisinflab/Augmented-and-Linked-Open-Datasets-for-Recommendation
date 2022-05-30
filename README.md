@@ -11,9 +11,10 @@ This work covers the enrichment of two widely used recommendation datasets from 
 
 Inspired by the advances in knowledge graph, Graph Convolutional Networks, Link Prediction, and Recommender Systems research, these augmented datasets aim to meet their cutting-edge research needs. Moreover, these datasets pave the way to further research to investigate different recommendation modalities simultaneously.
 
-<p align="center">
+
+<!-- <p align="center">
 <img src="images/resources.png" alt="drawing" width="500" />
-</p>
+</p> -->
 
 ## Download the Datasets
 All the resources are available [here](https://tny.sh/sisinflab-alod) . 
@@ -50,9 +51,41 @@ The files are split into tar.gz archives as follows:
 
 
   ```
+  
+  <table>
+    <tr>
+        <td>File Name </td> 
+        <td>Descriptions</td> 
+   </tr>
+   <tr>
+        <td align='center', colspan="2">MovieLens 25M</td>    
+   </tr>
+   <tr>
+        <td>ml25m_linking.tsv</td> 
+        <td>This file contains the link of items in the MovieLens 25M dataset to Wikidata, DBpedia, and FreeBase Knowledge Graphs. This is a tab separated file containing the following fields: <ul><li><i>movie_id</i> : the movie identifier in the MovieLens 25M dataset</li><li><i>wikidata_uri</i> : the uri resource on Wikidata associated to the movie </li><li><i>dbpedia_uri </i>: the uri resource on DBpedia associated to the movie  </li><li><i>freebase_uri</i> : the uri resource on FreeBase associated to the movie </li></ul></td> 
+   </tr>
+   <tr>
+        <td align='center', colspan="2">LibraryThing</td>    
+   </tr>
+ <tr>
+        <td>lt_linking.tsv</td> 
+        <td> This file contains the link of items in the LibraryThing dataset to Wikidata and DBpedia Knowledge Graphs. This is a tab separated file containing the following fields: <ul><li><i>work_id </i>: the book identifier in the LibraryThing dataset</li><li><i>wikidata_uri </i>: the uri resource on Wikidata associated to the book </li><li><i>wikidata_similarity</i> : the similarity between dataset and Wikidata side information value  </li><li><i>dbpedia_uri</i> : the uri resource on DBpedia associated to the book  </li><li><i> dbpedia_similarity</i> : the similarity between dataset and DBpedia side information value </li></ul></td> 
+   </tr>
+    <tr>
+        <td rowspan="2">I am a merged column</td>    
+        <td>3.rows and two columns</td>  
+    </tr>
+    <tr>
+        <td> Row, 4. Column, Two</td>  
+    </tr>
+</table>
 | File Name | Descriptions |
 |-----------|--------------|
-| ml25m_linking.tsv | This file contains the link of items in MovieLens 25M dataset to Wikidata, DBpedia, and FreeBase Knowledge Graphs. This is a tab separated file containing the following self-explained fields: `movie_id \| wikidata_uri \| dbpedia_uri \| freebase_uri \|`  <br>The user IDs are the ones used in the `user_bundle.csv` and `user_item.csv` data sets. The item IDs are the ones used in the `user_item.csv`, `session_item.csv` and `item_categories.csv` data sets.|
+|| MOVIELENS 25M ||
+| ml25m_linking.tsv | This file contains the link of items in the MovieLens 25M dataset to Wikidata, DBpedia, and FreeBase Knowledge Graphs. This is a tab separated file containing the following fields: <ul><li><i>movie_id</i> : the movie identifier in the MovieLens 25M dataset</li><li>wikidata_uri : the uri resource on Wikidata associated to the movie </li><li>dbpedia_uri : the uri resource on DBpedia associated to the movie  </li><li>freebase_uri  : the uri resource on FreeBase associated to the movie </li></ul>|
+| lt_linking.tsv | This file contains the link of items in the LibraryThing dataset to Wikidata and DBpedia Knowledge Graphs. This is a tab separated file containing the following fields: <ul><li>` work_id ` : the book identifier in the LibraryThing dataset</li><li>` wikidata_uri ` : the uri resource on Wikidata associated to the book </li><li>` wikidata_similarity ` : the similarity between dataset and Wikidata side information value  </li><li>` dbpedia_uri ` : the uri resource on DBpedia associated to the book  </li><li>` dbpedia_similarity ` : the similarity between dataset and DBpedia side information value </li></ul>|
+| lt_wikidata_freebase_linking.tsv | This file contains the link of items in the LibraryThing dataset to FreeBase Knowledge Graph from Wikidata. This is a tab separated file containing the following fields: <ul><li>` work_id ` : the book identifier in the LibraryThing dataset</li><li>` wikidata_uri ` : the uri resource on Wikidata associated to the book </li><li>` wikidata_similarity ` : the similarity between dataset and Wikidata side information value  </li><li>` freebase_uri ` : the uri resource on FreeBase associated to the book from the Wikidata uri </li></ul>|
+| lt_dbpedia_freebase_linking.tsv | This file contains the link of items in the LibraryThing dataset to FreeBase Knowledge Graph from DBpedia. This is a tab separated file containing the following fields: <ul><li>` work_id ` : the book identifier in the LibraryThing dataset</li><li>` dbpedia_uri ` : the uri resource on DBpedia associated to the book </li><li>` dbpedia_similarity ` : the similarity between dataset and DBpedia side information value  </li><li>` freebase_uri ` : the uri resource on FreeBase associated to the book from the DBpedia uri </li></ul>|
 | user_item.csv | This file contains the interaction of user and item.<br> This is a tab separated list: `user ID \| item ID \| timestamp \|`  |
 | session_item.csv | This file contains the affiliation of session and its items. Each session has at least 2 items.<br> This is a tab separated list: `session ID \| item ID \|` <br>The session IDs are the ones used in the `session_bundle.csv` and `user_session.csv` data sets.  |
 | user_session.csv| This file contains the interaction of user and session.<br> This is a tab separated list: `user ID \| session ID \| timestamp \|`  |
