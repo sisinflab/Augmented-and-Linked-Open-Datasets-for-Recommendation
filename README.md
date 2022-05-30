@@ -4,12 +4,11 @@
 
 # Augmented and Linked Open Datasets for Recommendation
 
-This is the official repository of the paper *Augmented and Linked Open Datasets for Recommendation*.
-This work covers the enrichment of two widely used recommendation datasets from the movie and book domain, [MovieLens 25M](https://grouplens.org/datasets/movielens/25m/) and [LibraryThing](https://cseweb.ucsd.edu/~jmcauley/datasets.html#social_data) respectively. We collected metadata, reviews, and the associated knowledge graphs (KGs) for each of them.
-Metadata includes titles, authors, genres, and tags from the LibraryThing website for books. Actors, directors, genres, and keywords are extracted from the Internet Movie Database (IMDb) for movies.
-Publicly available reviews of the items are fetched from LibraryThing and IMDb websites. 
-The domain-specific KGs contain RDF triples from the Wikidata and DBpedia KGs.
-Additionally, we publish a mapping for each item in the two datasets with the corresponding entity in the original Wikidata, DBpedia, and Freebase KGs.
+This is the official repository of the paper *Linked Open Datasets for Recommendation*.
+This work covers the enrichment of two widely used recommendation datasets from the movie and book domain, [MovieLens 25M](https://grouplens.org/datasets/movielens/25m/) and [LibraryThing](https://cseweb.ucsd.edu/~jmcauley/datasets.html#social_data) respectively. Specifically:
+- we link the items in the LibraryThing (LT) and MovieLens 25M (ML25M) datasets with the entities available in three well-known knowledge graphs: Wikidata, DBpedia, and Freebase;
+- starting from item entity linking, we explore the Wikidata and DBpedia knowledge graphs connections up to two hops to collect all the structured information connected to these resources, thus providing persistenta nd ready-to-use enriched datasets for performing reproducible experiments; 
+
 Inspired by the advances in knowledge graph, Graph Convolutional Networks, Link Prediction, and Recommender Systems research, these augmented datasets aim to meet their cutting-edge research needs. Moreover, these datasets pave the way to further research to investigate different recommendation modalities simultaneously.
 
 <p align="center">
