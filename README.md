@@ -26,12 +26,12 @@ Our resources collect:
 - links from Item IDs to URI resources on [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page), [DBpedia](https://www.dbpedia.org/) and [Freebase](https://developers.google.com/freebase) KGs for both movies and books
 - RDF-triples from the Wikidata and DBpedia KGs for both movies and books 
 
-The files are split into tar.gz archives as follows:
+The files are split into zip archives as follows:
   ```shell
   MovieLens 25M
-  ├── ml25m_linking.tar.gz
+  ├── ml25m_linking.zip
   │   ├── ml25m_linking.tsv   
-  ├── ml25m_subgraphs.tar.gz
+  ├── ml25m_subgraphs.zip
   │   └── ml25m_wikidata_1hop.tsv
   │   └── ml25m_wikidata_2hop.tsv
   │   └── ml25m_dbpedia_1hop.tsv
@@ -39,11 +39,11 @@ The files are split into tar.gz archives as follows:
 
 
   LibraryThing
-  ├── lt_linking.tar.gz
+  ├── lt_linking.zip
   │   ├── lt_linking.tsv   
   │   ├── lt_wikidata_freebase_linking.tsv   
   │   ├── lt_dbpedia_freebase_linking.tsv   
-  ├── lt_subgraphs.tar.gz
+  ├── lt_subgraphs.zip
   │   └── lt_wikidata_1hop.tsv
   │   └── lt_wikidata_2hop.tsv
   │   └── lt_dbpedia_1hop.tsv
