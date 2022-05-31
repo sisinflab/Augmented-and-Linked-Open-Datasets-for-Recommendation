@@ -52,7 +52,7 @@ The files are split into zip archives as follows:
 
   ```
   ### Resources Description
-  
+  Here we provide a description of the contents of our collection.
   <table>
     <tr>
         <td>File Name </td> 
