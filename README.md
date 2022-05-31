@@ -2,7 +2,7 @@
 
 [Main page](https://sisinflab.github.io/Augmented-and-Linked-Open-Datasets-for-Recommendation/) - [GitHub Repository](https://github.com/sisinflab/Augmented-and-Linked-Open-Datasets-for-Recommendation/)
 
-# Augmented and Linked Open Datasets for Recommendation
+# Linked Open Datasets for Recommendation
 
 This is the official repository of the paper *Linked Open Datasets for Recommendation*.
 This work covers the enrichment of two widely used recommendation datasets from the movie and book domain, [MovieLens 25M](https://grouplens.org/datasets/movielens/25m/) and [LibraryThing](https://cseweb.ucsd.edu/~jmcauley/datasets.html#social_data) respectively. Specifically:
@@ -51,6 +51,7 @@ The files are split into tar.gz archives as follows:
 
 
   ```
+  ### Resources Description
   
   <table>
     <tr>
@@ -64,6 +65,22 @@ The files are split into tar.gz archives as follows:
         <td>ml25m_linking.tsv</td> 
         <td>This file contains the link of items in the MovieLens 25M dataset to Wikidata, DBpedia, and FreeBase Knowledge Graphs. This is a tab separated file containing the following fields: <ul><li><i>movie_id</i> : the movie identifier in the MovieLens 25M dataset</li><li><i>wikidata_uri</i> : the uri resource on Wikidata associated to the movie </li><li><i>dbpedia_uri </i>: the uri resource on DBpedia associated to the movie  </li><li><i>freebase_uri</i> : the uri resource on FreeBase associated to the movie </li></ul></td> 
    </tr>
+  <tr>
+        <td>ml25m_wikidata_1hop.tsv</td> 
+        <td> This file contains the RDF triples gathered exploring the Wikidata Knowledge Graph up tp 1-hop starting from the uri resources found in the item linking phase concerning the MovieLens 25M dataset. This is a tab separated file containing the following fields: <ul><li><i>subject</i> : the uri resource of the subject in the RDF triple at 1-hop</li><li><i>predicate</i> : the uri resource of the predicate in the RDF triple at 1-hop</li><li><i>object</i> : the uri resource of the object in the RDF triple at 1-hop  </li></ul></td> 
+   </tr>
+  <tr>
+        <td>ml25m_wikidata_2hop.tsv</td> 
+        <td> This file contains the RDF triples gathered exploring the Wikidata Knowledge Graph up tp 2-hop starting from the uri resources objects found in the exploration up to 1-hop concerning the MovieLens 25M dataset. This is a tab separated file containing the following fields: <ul><li><i>subject</i> : the uri resource of the subject in the RDF triple at 2-hop (i.e., the object at the 1-hop exploration)</li><li><i>predicate</i> : the uri resource of the predicate in the RDF triple at 2-hop</li><li><i>object</i> : the uri resource of the object in the RDF triple at 2-hop  </li></ul></td> 
+   </tr>
+    <tr>
+        <td>ml25m_dbpedia_1hop.tsv</td> 
+        <td> This file contains the RDF triples gathered exploring the DBpedia Knowledge Graph up tp 1-hop starting from the uri resources found in the item linking phase concerning the MovieLens 25M dataset. This is a tab separated file containing the following fields: <ul><li><i>subject</i> : the uri resource of the subject in the RDF triple at 1-hop</li><li><i>predicate</i> : the uri resource of the predicate in the RDF triple at 1-hop</li><li><i>object</i> : the uri resource of the object in the RDF triple at 1-hop  </li></ul></td> 
+   </tr>
+  <tr>
+        <td>ml25m_dbpedia_2hop.tsv</td> 
+        <td> This file contains the RDF triples gathered exploring the DBpedia Knowledge Graph up tp 2-hop starting from the uri resources objects found in the exploration up to 1-hop concerning the MovieLens 25M dataset. This is a tab separated file containing the following fields: <ul><li><i>subject</i> : the uri resource of the subject in the RDF triple at 2-hop (i.e., the object at the 1-hop exploration)</li><li><i>predicate</i> : the uri resource of the predicate in the RDF triple at 2-hop</li><li><i>object</i> : the uri resource of the object in the RDF triple at 2-hop  </li></ul></td> 
+   </tr>
    <tr>
         <td align='center', colspan="2">LibraryThing</td>    
    </tr>
@@ -71,29 +88,32 @@ The files are split into tar.gz archives as follows:
         <td>lt_linking.tsv</td> 
         <td> This file contains the link of items in the LibraryThing dataset to Wikidata and DBpedia Knowledge Graphs. This is a tab separated file containing the following fields: <ul><li><i>work_id </i>: the book identifier in the LibraryThing dataset</li><li><i>wikidata_uri </i>: the uri resource on Wikidata associated to the book </li><li><i>wikidata_similarity</i> : the similarity between dataset and Wikidata side information value  </li><li><i>dbpedia_uri</i> : the uri resource on DBpedia associated to the book  </li><li><i> dbpedia_similarity</i> : the similarity between dataset and DBpedia side information value </li></ul></td> 
    </tr>
+  <tr>
+        <td>lt_wikidata_freebase_linking.tsv</td> 
+        <td> This file contains the link of items in the LibraryThing dataset to FreeBase Knowledge Graph from Wikidata. This is a tab separated file containing the following fields: <ul><li><i>work_id</i> : the book identifier in the LibraryThing dataset</li><li><i>wikidata_uri</i> : the uri resource on Wikidata associated to the book </li><li><i>wikidata_similarity</i> : the similarity between dataset and Wikidata side information value  </li><li><i>freebase_uri</i> : the uri resource on FreeBase associated to the book from the Wikidata uri </li></ul></td> 
+   </tr>
+  <tr>
+        <td>lt_dbpedia_freebase_linking.tsv</td> 
+        <td> This file contains the link of items in the LibraryThing dataset to FreeBase Knowledge Graph from DBpedia. This is a tab separated file containing the following fields: <ul><li><i>work_id</i> : the book identifier in the LibraryThing dataset</li><li><i>dbpedia_uri</i> : the uri resource on DBpedia associated to the book </li><li><i>dbpedia_similarity</i> : the similarity between dataset and DBpedia side information value  </li><li><i>freebase_uri</i> : the uri resource on FreeBase associated to the book from the DBpedia uri </li></ul></td> 
+   </tr>
+   <tr>
+        <td>lt_wikidata_1hop.tsv</td> 
+        <td> This file contains the RDF triples gathered exploring the Wikidata Knowledge Graph up tp 1-hop starting from the uri resources found in the item linking phase concerning the LibraryThing dataset. This is a tab separated file containing the following fields: <ul><li><i>subject</i> : the uri resource of the subject in the RDF triple at 1-hop</li><li><i>predicate</i> : the uri resource of the predicate in the RDF triple at 1-hop</li><li><i>object</i> : the uri resource of the object in the RDF triple at 1-hop  </li></ul></td> 
+   </tr>
+  <tr>
+        <td>lt_wikidata_2hop.tsv</td> 
+        <td> This file contains the RDF triples gathered exploring the Wikidata Knowledge Graph up tp 2-hop starting from the uri resources objects found in the exploration up to 1-hop concerning the LibraryThing dataset. This is a tab separated file containing the following fields: <ul><li><i>subject</i> : the uri resource of the subject in the RDF triple at 2-hop (i.e., the object at the 1-hop exploration)</li><li><i>predicate</i> : the uri resource of the predicate in the RDF triple at 2-hop</li><li><i>object</i> : the uri resource of the object in the RDF triple at 2-hop  </li></ul></td> 
+   </tr>
     <tr>
-        <td rowspan="2">I am a merged column</td>    
-        <td>3.rows and two columns</td>  
-    </tr>
-    <tr>
-        <td> Row, 4. Column, Two</td>  
-    </tr>
+        <td>lt_dbpedia_1hop.tsv</td> 
+        <td> This file contains the RDF triples gathered exploring the DBpedia Knowledge Graph up tp 1-hop starting from the uri resources found in the item linking phase concerning the LibraryThing dataset. This is a tab separated file containing the following fields: <ul><li><i>subject</i> : the uri resource of the subject in the RDF triple at 1-hop</li><li><i>predicate</i> : the uri resource of the predicate in the RDF triple at 1-hop</li><li><i>object</i> : the uri resource of the object in the RDF triple at 1-hop  </li></ul></td> 
+   </tr>
+  <tr>
+        <td>lt_dbpedia_2hop.tsv</td> 
+        <td> This file contains the RDF triples gathered exploring the DBpedia Knowledge Graph up tp 2-hop starting from the uri resources objects found in the exploration up to 1-hop concerning the LibraryThing dataset. This is a tab separated file containing the following fields: <ul><li><i>subject</i> : the uri resource of the subject in the RDF triple at 2-hop (i.e., the object at the 1-hop exploration)</li><li><i>predicate</i> : the uri resource of the predicate in the RDF triple at 2-hop</li><li><i>object</i> : the uri resource of the object in the RDF triple at 2-hop  </li></ul></td> 
+   </tr>
 </table>
-| File Name | Descriptions |
-|-----------|--------------|
-|| MOVIELENS 25M ||
-| ml25m_linking.tsv | This file contains the link of items in the MovieLens 25M dataset to Wikidata, DBpedia, and FreeBase Knowledge Graphs. This is a tab separated file containing the following fields: <ul><li><i>movie_id</i> : the movie identifier in the MovieLens 25M dataset</li><li>wikidata_uri : the uri resource on Wikidata associated to the movie </li><li>dbpedia_uri : the uri resource on DBpedia associated to the movie  </li><li>freebase_uri  : the uri resource on FreeBase associated to the movie </li></ul>|
-| lt_linking.tsv | This file contains the link of items in the LibraryThing dataset to Wikidata and DBpedia Knowledge Graphs. This is a tab separated file containing the following fields: <ul><li>` work_id ` : the book identifier in the LibraryThing dataset</li><li>` wikidata_uri ` : the uri resource on Wikidata associated to the book </li><li>` wikidata_similarity ` : the similarity between dataset and Wikidata side information value  </li><li>` dbpedia_uri ` : the uri resource on DBpedia associated to the book  </li><li>` dbpedia_similarity ` : the similarity between dataset and DBpedia side information value </li></ul>|
-| lt_wikidata_freebase_linking.tsv | This file contains the link of items in the LibraryThing dataset to FreeBase Knowledge Graph from Wikidata. This is a tab separated file containing the following fields: <ul><li>` work_id ` : the book identifier in the LibraryThing dataset</li><li>` wikidata_uri ` : the uri resource on Wikidata associated to the book </li><li>` wikidata_similarity ` : the similarity between dataset and Wikidata side information value  </li><li>` freebase_uri ` : the uri resource on FreeBase associated to the book from the Wikidata uri </li></ul>|
-| lt_dbpedia_freebase_linking.tsv | This file contains the link of items in the LibraryThing dataset to FreeBase Knowledge Graph from DBpedia. This is a tab separated file containing the following fields: <ul><li>` work_id ` : the book identifier in the LibraryThing dataset</li><li>` dbpedia_uri ` : the uri resource on DBpedia associated to the book </li><li>` dbpedia_similarity ` : the similarity between dataset and DBpedia side information value  </li><li>` freebase_uri ` : the uri resource on FreeBase associated to the book from the DBpedia uri </li></ul>|
-| user_item.csv | This file contains the interaction of user and item.<br> This is a tab separated list: `user ID \| item ID \| timestamp \|`  |
-| session_item.csv | This file contains the affiliation of session and its items. Each session has at least 2 items.<br> This is a tab separated list: `session ID \| item ID \|` <br>The session IDs are the ones used in the `session_bundle.csv` and `user_session.csv` data sets.  |
-| user_session.csv| This file contains the interaction of user and session.<br> This is a tab separated list: `user ID \| session ID \| timestamp \|`  |
-| session_bundle.csv| This file contains the affiliation of session and detected bundles. Each session has at least 1 bundle.<br> This is a tab separated list: `session ID \| bundle ID \|` <br>The bundle IDs are the ones used in the `bundle_item.csv` ,`user_bundle.csv` and `bundle_intent.csv` data sets. |
-| bundle_intent.csv | This file contains bundle and its annotated intent.<br> This is a tab separated list: `bundle ID \| intent \|`  |
-| bundle_item.csv | This file contains the affiliation of bundle and its items. Each bundle has at least 2 items.<br> This is a tab separated list: `bundle ID \| item ID \|` |
-| user_bundle.csv | This file contains the interaction of user and bundle.<br> This is a tab separated list: `user ID \| bundle ID \| timestamp \|`  |
-| item_categories.csv| This file contains item and its categories.<br> This is a tab separated list: `item ID \| categories \|` <br> The format of data in `categories` column is a list of string. |
+
 
 ### Resources Statistics
 
@@ -103,13 +123,13 @@ The table below shows the statistics of the collected resource categorized by da
 <img src="images/stats.png" alt="drawing" width="500" />
 </p>
 
-### Resources Description
+<!--### Resources Description
 
 Here we provide a description of the contents of our collection.
 
 <p align="center">
 <img src="images/description_files.png" alt="drawing" width="700" />
-</p>
+</p>-->
 
 
 
