@@ -120,7 +120,7 @@ The files are split into zip archives as follows:
 The table below shows the statistics of the collected resource categorized by dataset and data source.
 
 <p align="center">
-<img src="images/stats.png" alt="drawing" width="500" />
+<img src="images/stats_datasets.png" alt="drawing" width="1000" height="400" />
 </p>
 
 <!--### Resources Description
