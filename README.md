@@ -17,7 +17,7 @@ Inspired by the advances in knowledge graph, Graph Convolutional Networks, Link 
 </p> -->
 
 ## Download the Datasets
-All the resources are available [here]([https://tny.sh/sisinflab-alod](https://politecnicobari-my.sharepoint.com/:f:/g/personal/vincenzo_paparella_poliba_it/EsHpz-l451BMhvKlCWNncjgBYxYazIuHOHhGNInjU8j4ZA?e=2OFWCD) . 
+All the resources are available [here]([https://tny.sh/sisinflab-alod](https://politecnicobari-my.sharepoint.com/:f:/g/personal/vincenzo_paparella_poliba_it/EsHpz-l451BMhvKlCWNncjgBYxYazIuHOHhGNInjU8j4ZA?e=2OFWCD)) . 
 
 Please note that the resources cannot be hosted on GitHub due to [GitHub size limits](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github).
 
