@@ -2,14 +2,15 @@
 
 [Main page](https://sisinflab.github.io/Augmented-and-Linked-Open-Datasets-for-Recommendation/) - [GitHub Repository](https://github.com/sisinflab/Augmented-and-Linked-Open-Datasets-for-Recommendation/)
 
-# Linked Open Datasets for Recommendation
+# Knowledge Graph Datasets for Recommendation
 
-This is the official repository of the paper *Linked Open Datasets for Recommendation*.
+This is the official repository of the paper [*Knowledge Graph Datasets for Recommendation*](https://ceur-ws.org/Vol-3560/short2.pdf) accepted for publication at KaRS@RecSys2023.
+
 This work covers the enrichment of two widely used recommendation datasets from the movie and book domain, [MovieLens 25M](https://grouplens.org/datasets/movielens/25m/) and [LibraryThing](https://cseweb.ucsd.edu/~jmcauley/datasets.html#social_data) respectively. Specifically:
 - we link the items in the LibraryThing (LT) and MovieLens 25M (ML25M) datasets with the entities available in three well-known knowledge graphs: Wikidata, DBpedia, and Freebase;
-- starting from item entity linking, we explore the Wikidata and DBpedia knowledge graphs connections up to two hops to collect all the structured information connected to these resources, thus providing persistenta nd ready-to-use enriched datasets for performing reproducible experiments; 
+- starting from item entity linking, we explore the Wikidata and DBpedia knowledge graphs connections up to two hops to collect all the structured information connected to these resources, thus providing persistent and ready-to-use enriched datasets for performing reproducible experiments.
 
-Inspired by the advances in knowledge graph, Graph Convolutional Networks, Link Prediction, and Recommender Systems research, these augmented datasets aim to meet their cutting-edge research needs. Moreover, these datasets pave the way to further research to investigate different recommendation modalities simultaneously.
+Inspired by the advances in the knowledge graph, Graph Convolutional Networks, Link Prediction, and Recommender Systems research, these augmented datasets aim to meet their cutting-edge research needs. Moreover, these datasets pave the way for further research to investigate different recommendation modalities simultaneously.
 
 
 <!-- <p align="center">
@@ -134,16 +135,16 @@ Here we provide a description of the contents of our collection.
 
 
 ## Contributing
-We welcome any contibution that could improve our datasets. Please, contact us by email.
+We welcome any contribution that could improve our datasets. Please contact us by email.
 
 ## The Team
-This work is developed by
-* Vito Walter Anelli (vitowalter.anelli@poliba.it)
-* Antonio Ferrara (antonio.ferrara@poliba.it)
-* Tommaso Di Noia (tommaso.dinoia@poliba.it)
-* Alberto Carlo Maria Mancino<sup id="a1">[*](#f1)</sup> (alberto.mancino@poliba.it)
+This work was developed by
 * Vincenzo Paparella<sup id="a1">[*](#f1)</sup> (vincenzo.paparella@poliba.it)
+* Alberto Carlo Maria Mancino<sup id="a1">[*](#f1)</sup> (alberto.mancino@poliba.it)
+* Antonio Ferrara (antonio.ferrara@poliba.it)
 * Claudio Pomo (claudio.pomo@poliba.it)
+* Vito Walter Anelli (vitowalter.anelli@poliba.it)
+* Tommaso Di Noia (tommaso.dinoia@poliba.it)
 
 <b id="f1"><sup>*</sup></b> Corresponding authors
 
